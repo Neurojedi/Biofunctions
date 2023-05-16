@@ -22,7 +22,7 @@ The Assembly.ipynb file contains useful examples that demonstrate the proper usa
 
 **10. ContigGeneration:** This file contains the `get_Contig` function that returns all contigs in a corresponding de-Bruijn Graph.
 
-**11. StringSpelledByGappedPatterns:** This file contains the `StringSpelledByGappedPatterns` function that returns a string Text of length $k + d + k + n - 1$ such that the $i-th$ (k, d)-mer in Text is equal to $(a_i|b_i)$ for 1 ≤ i ≤ n (if such a string exists).
+**11. StringSpelledByGappedPatterns:** This file contains the `StringSpelledByGappedPatterns` function that returns a string Text of length $k + d + k + n - 1$ such that the $i-th$ (k, d)-mer in Text is equal to $(a_i|b_i)$ for $1 ≤ i ≤ n$ (if such a string exists).
 
 **12. MaximalNonBranchingPaths:** This file contains the `MaximalNonBranchingPaths` function that returns the collection of all maximal nonbranching paths in a corresponding graph.
 
