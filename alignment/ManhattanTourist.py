@@ -5,7 +5,7 @@
 
 
 # The function below returns the length of a longest path in the Manhattan Tourist Problem
-def MahattanTourist(x, k, d, r):
+def ManhattanTourist(x, k, d, r):
     longest_path = [[0] * (k+1) for i in range(x+1)]
     for i in range(1, x+1):
         longest_path[i][0] = longest_path[i-1][0] + d[i-1][0]
