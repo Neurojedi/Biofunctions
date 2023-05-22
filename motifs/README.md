@@ -10,4 +10,4 @@ The Motifs.ipynb file contains useful examples that demonstrate the proper usage
 
 4. Randomized_MotifSearch: This file contains the `Randomized_MotifSearch` function that returns a collection BestMotifs resulting from running RandomizedMotifSearch(Dna, k, t) 1,000 times.
 
-5. Gibbs_MotifSearch: This file contains the `Gibbs_MotifSearch` that returns the strings BestMotifs resulting from running GibbsSampler(Dna, k, t, N) with 20 random starts.
+5. Gibbs_MotifSearch: This file contains the `Gibbs_MotifSearch` function that returns the strings BestMotifs resulting from running GibbsSampler(Dna, k, t, N) with 20 random starts.
