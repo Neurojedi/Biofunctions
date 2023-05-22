@@ -6,8 +6,8 @@ The Motif Functions.ipynb file contains useful examples that demonstrate the pro
 
 2. MedianString: This file contains the `MedianString` function that returns a k-mer pattern that minimizes d(Pattern, Dna) among all possible choices of k-mers. 
 
-3. GreedyMotifSearch: This file contains `GreedyMotifSearch` that returns a collection of strings BestMotifs resulting from applying GreedyMotifSearch(Dna, k, t). 
+3. GreedyMotifSearch: This file contains `GreedyMotifSearch` function that returns a collection of strings BestMotifs resulting from applying GreedyMotifSearch(Dna, k, t). 
 
-4. Randomized_MotifSearch: This file contains `Randomized_MotifSearch` that returns a collection BestMotifs resulting from running RandomizedMotifSearch(Dna, k, t) 1,000 times.
+4. Randomized_MotifSearch: This file contains `Randomized_MotifSearch` function that returns a collection BestMotifs resulting from running RandomizedMotifSearch(Dna, k, t) 1,000 times.
 
 5. Gibbs_MotifSearch: This file contains `Gibbs_MotifSearch` that returns the strings BestMotifs resulting from running GibbsSampler(Dna, k, t, N) with 20 random starts.
