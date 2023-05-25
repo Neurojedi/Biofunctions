@@ -7,7 +7,7 @@ The Alignment.ipynb file contains useful examples that demonstrate the proper us
 
 **2. OutputLCS:** This file contains `OutputLCS` and `BackTracker` functions that can be to get the longest common subsequence of s and t, given two strings s and t.
 
-**3. Longest Path DAG:** This file contains `LongestPathDAG` function that returns the desired output for the Longest Path along the Directed Acyclic Graph (DAG) problem.
+**3. Longest Path DAG:** This file contains `LongestPathDAG` function that returns The length of a longest path in the corresponding graph, followed by a longest path as a sequence of space-separated node labels.
 
 **4. GlobalAlignment:** This file contains `GlobalAlignment` and `Alignment` functions that can be used to get the maximum alignment score of two strings followed by an alignment achieving this maximum score.
 
@@ -35,8 +35,8 @@ The Alignment.ipynb file contains useful examples that demonstrate the proper us
 
 **16. SharedKmers:** This file contains `SharedKmers` functions that can be used to get all k-mers shared by these strings, in the form of ordered pairs (x, y) corresponding to starting positions of these k-mers in the respective strings.
 
-**17. ChromosomeToCycle:** This file contains `get_cycle` function that returns sequence Nodes of integers between 1 and 2n resulting from applying ChromosomeToCycle to Chromosome.
+**17. ChromosomeToCycle:** This file contains `get_cycle` function that returns sequence nodes of integers between 1 and 2n resulting from applying ChromosomeToCycle to Chromosome.
 
 **18. CycleToChromosome:** This file contains `get_chromosome` function that returns chromosome, Chromosome containing n synteny blocks resulting from applying CycleToChromosome to Nodes.
 
-**19. GraphToGenome:** This file contains `GraphToGenome` function that returns genome P corresponding to this genome graph (The implementation below is for the assignment of the Course and I used an altered version in TwoBreakSorting).
+**19. GraphToGenome:** This file contains `GraphToGenome` function that returns genome P corresponding to the genome graph.
